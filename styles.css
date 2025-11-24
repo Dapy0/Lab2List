@@ -32,8 +32,10 @@ li a{
     text-decoration: none;
     color: #cd5a5c;
     position: relative;
+            min-height: 4rem;
     p{
-        display: inline-block;
+        display: inline;
+
     }
     &::before {
         display: inline-block;
